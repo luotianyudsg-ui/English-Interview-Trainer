@@ -1,0 +1,25 @@
+.DS_Store
+**/.DS_Store
+.env
+.env.*
+!.env.example
+
+# Local credentials and provider configuration
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Local test and browser artifacts
+playwright-report/
+test-results/
+coverage/
+
+# Temporary and editor files
+*.log
+*.tmp
+*.swp
+.idea/
+.vscode/
