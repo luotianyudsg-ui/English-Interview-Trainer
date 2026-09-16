@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#173F5F">
+  <meta name="description" content="几天内掌握产品与运营英语面试中真正会说出口的表达。">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>面试开口练 · V0.3</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles-extra.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <button class="brand" data-route="home" aria-label="返回首页"><span class="brand-mark">开</span><span>面试开口练 <small class="app-version">V0.3</small></span></button>
+      <button class="icon-button" id="soundTest" aria-label="试听英语发音" title="试听发音">◖))</button>
+    </header>
+    <main id="view" tabindex="-1"></main>
+    <nav class="bottom-nav" aria-label="主要导航">
+      <button data-route="home" class="active"><span>⌂</span>首页</button>
+      <button data-route="study"><span>▱</span>学习</button>
+      <button data-route="interview"><span>◎</span>面试</button>
+      <button data-route="mock"><span>✎</span>模拟</button>
+      <button data-route="library"><span>≡</span>词库</button>
+    </nav>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="./config.js"></script>
+  <script src="./data.js"></script>
+  <script src="./mock-interview.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
